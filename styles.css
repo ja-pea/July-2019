@@ -4,7 +4,7 @@ body {
 }
 
 #nav_bar {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .footer {
-    background-color: black;
+    background-color: 4a4a4a;
     height: 80px;
     margin-top: 32px;
 }
