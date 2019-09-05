@@ -1,96 +1,98 @@
                     body {
-                    margin: 0;
-                    font-family: 'Roboto', sans-serif;
-                }
-                
-                #nav_bar {
-                    background-color: #ffffff;
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                
-                #nav_links {
-                    display: flex;
-                    align-items: center;
-                    margin: auto;
-                }
-                
-                .nav_anchor_tag {
-                    text-decoration: none;
-                    padding: 9px
-                }
-                
-                .nav_anchor_tag:visited {
-                    color: #4d4d4d
-                }
-                
-                .nav_anchor_tag:active {
-                    color: red
-                }
-                
-                .nav_anchor_tag:hover {
-                    color: hotpink;
-                }
-                
-                .nav_anchor_tag:focus {}
-                
-                .nav_anchor_tag:link {
-                    color: #4d4d4d;
-                }
-                
-                .float_right {
-                    float: right;
-                }
-                
-                .header_name {
-                    display: inline;
-                    /* background-color: white; */
-                    padding: 9px;
-                    flex-grow: 1;
-                }
-                
-                .sectionOne {
-                    display: flex;
-                    width: 100vw;
-                }
-                
-                .grid_one {
-                    flex-grow: 1;
-                    display: grid;
-                    grid-template-columns: auto auto;
-                    margin: auto;
-                    max-width: 800px;
-                }
-                
-                .grid_one_item {
-                    /* border: 1px solid black;this is to add line */
-                }
-                
-                .intro_me {
-                    height: 40vh;
-                    display: flex;
-                    align-items: center;
-                }
-                
-                article.intro section,
-                article.outro section {
-                    padding: 19px 9.615% 22px;
-                    margin: 140px auto;
-                }
-                
-                .width {
-                    max-width: 400px;
-                    margin-left: 32px;
-                }
-                
-                article.intro section,
-                article.outro section {
-                    width: 100%;
-                    padding: 11px 4.2% 17px;
-                    line-height: 20px;
-                    margin: 66px auto 22px;
-                    clear: both;
-                    float: left;
+                        margin: 0;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                    
+                    #nav_bar {
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    
+                    #nav_links {
+                        display: flex;
+                        align-items: center;
+                        margin: auto;
+                    }
+                    
+                    .nav_anchor_tag {
+                        text-decoration: none;
+                        padding: 9px
+                    }
+                    
+                    .nav_anchor_tag:visited {
+                        color: #4d4d4d
+                    }
+                    
+                    .nav_anchor_tag:active {
+                        color: red
+                    }
+                    
+                    .nav_anchor_tag:hover {
+                        color: hotpink;
+                    }
+                    
+                    .nav_anchor_tag:focus {}
+                    
+                    .nav_anchor_tag:link {
+                        color: #4d4d4d;
+                    }
+                    
+                    .float_right {
+                        float: right;
+                    }
+                    
+                    .header_name {
+                        display: inline;
+                        /* background-color: white; */
+                        padding: 9px;
+                        flex-grow: 1;
+                    }
+                    
+                    .sectionOne {
+                        display: flex;
+                        width: 100vw;
+                    }
+                    
+                    .grid_one {
+                        flex-grow: 1;
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        margin: auto;
+                        max-width: 800px;
+                    }
+                    
+                    .grid_one_item {
+                        /* border: 1px solid black;this is to add line */
+                    }
+                    
+                    .intro_me {
+                        height: 40vh;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    article.intro section,
+                    article.outro section {
+                        padding: 19px 9.615% 22px;
+                        margin: 140px auto;
+                    }
+                    
+                    .width {
+                        max-width: 400px;
+                        margin-left: 32px;
+                    }
+                    
+                    article.intro section,
+                    article.outro section {
+                        width: 100%;
+                        padding: 11px 4.2% 17px;
+                        line-height: 20px;
+                        margin: 66px auto 22px;
+                        clear: both;
+                        float: left;
+                    }
+                    
                     .footer {
                         background-color: eeeeee;
                         height: 80px;
