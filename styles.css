@@ -53,12 +53,6 @@
                         text-decoration: none;
                     }
                     
-                    .sectionOne {
-                        display: flex;
-                        flex-direction: column;
-                        width: 100vw;
-                    }
-                    
                     .section_row_reverse {
                         display: flex;
                         flex-direction: row-reverse;
@@ -96,15 +90,9 @@
                     }
                     
                     .intro_me {
-                        height: 100vh;
+                        height: 90vh;
                         display: flex;
                         align-items: center;
-                    }
-                    
-                    article.intro section,
-                    article.outro section {
-                        padding: 19px 9.615% 22px;
-                        margin: 140px auto;
                     }
                     
                     .width {
@@ -118,18 +106,20 @@
                     article.outro section {
                         width: 100%;
                         padding: 11px 4.2% 17px;
-                        line-height: 20px;
+                        line-height: 30px;
                         margin: 66px auto 22px;
                         clear: both;
                         float: left;
+                        overflow: hidden
                     }
                     
                     .footer {
                         margin-top: auto;
+                        display: flex;
+                        flex-wrap: wrap;
                         width: 100%;
-                        background-color: grey;
-                        color: 4d4d4d;
-                        text-align: center;
+                        background-color: d3d3d3;
+                        justify-content: center;
                     }
                     
                     .responsive {
