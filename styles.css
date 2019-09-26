@@ -118,7 +118,9 @@
                         display: flex;
                         flex-wrap: wrap;
                         width: 100%;
-                        background-color: d3d3d3;
+                        background-color: #d3d3d3;
+                        overflow: auto;
+                        clear: both;
                         justify-content: center;
                     }
                     
